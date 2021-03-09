@@ -7,7 +7,7 @@ body{
 .heading {
     background: rgb(236, 213, 5);
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "McLaren", cursive;
     height: 80px;
     display: flex;
     align-items: center;
@@ -26,19 +26,23 @@ body{
     padding: 10px;
     border-radius: 10px;
     margin: 20px 20px 20px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.noteBox h1 {
+    font-size: 20px;
+}
+
+.noteBox p {
+    font-size: 20px;
 }
 
 footer {
-    background: rgb(236, 213, 5);
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "McLaren", cursive;
     height: 40px;
     width: 100%;
     position: absolute;
     bottom: 0;
     text-align: center;
-}
-
-.copyRight {
-    margin-left: 20px;
 }
